@@ -1,0 +1,209 @@
+.logo{
+    width: 10%;
+    padding: 20px;
+}
+nav{
+    position: fixed;
+    top: 30%;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    font-size:larger;
+    line-height:inherit;
+    padding: 10px;
+}
+ul li a:hover{
+    color:#fff;
+    background-color: #4b44f2;
+    transition: 1.2s ease background-color;
+    border-radius: 10px;
+}
+nav ul li.active{
+    background-color: #4b44f2;
+    transition: 1.2s ease background-color;
+    border-radius: 10px;
+}
+nav ul li.active a{
+    color: #fff;
+}
+.landing-page{
+    height: 100vh;
+    background:url(img/background.png) no-repeat 0%;
+}
+.my-face{
+    width: 50vh;
+    margin-left: 20%;
+}
+.social-media a{
+text-decoration: none;
+color: #4b44f2;
+padding: 2%;
+border-radius: 50%;
+}
+
+.social-media a:hover{
+    background-color: #4b44f2;
+    color: #fff;
+}
+.about-section{
+    height: 60vh;
+}
+.img-about{
+    width: 50vh;
+}
+.edu-section h1{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: #4b44f2;
+}
+.edu-detail{
+    margin-top: 5%;
+}
+.edu-detail h2{
+    display: flex;
+    justify-content: center;
+    color: #616161;
+}
+.edu-detail p{
+    display: flex;
+    justify-content: center;
+    line-height:initial;
+    font-size: large;
+}
+.edu-section{
+    height: 90vh;
+    background-color:rgb(241, 251, 255);
+}
+.skills-card{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-detail{
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-detail:hover{
+    color: #4b44f2;
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);;
+}
+.contact-section{
+    background-color: #f3f3f3;
+}
+.form{
+    width: 40%;
+    margin: 0 auto;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-input input{
+    margin: 2%;
+    border-radius: 20px;
+    padding: 1%;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.form-input textarea{
+    border-radius: 20px;
+    border: none;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.form-input input:focus{
+    border: none;
+    box-shadow: inset 8px 8px 8px #cbced1,inset -8px -8px 8px #fff;
+    outline: none;
+}
+.form-input button{
+    margin: 3%;
+    width: 20%;
+}
+.form-input textarea:focus{
+    border: none;
+    box-shadow: inset 8px 8px 8px #cbced1,inset -8px -8px 8px #fff;
+    outline: none;
+}
+.footer-section{
+    height: 30vh;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.container h3{
+    display: flex;
+    justify-content: center;
+}
+footer .container .social-media{
+    
+    display: flex;
+    justify-content: center;
+}
+footer .container .social-media a:hover{
+    color: white;
+    background-color: transparent;
+}
+.container .copyright{
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+   .landing-page{
+       margin-left: 30%;
+       flex-direction: column;   }
+       .my-face{
+           width: 70%;
+           margin-top: -50%;
+       }
+       .about-section .container{
+           display: flex;
+           flex-direction: column;
+           
+       }
+       .img-container{
+           margin: 0 auto;
+       }
+       .about-img{
+           width: 50%;
+           display: flex;
+           margin-left: 40%;
+       }
+       .about-text{
+           width: 50%;
+           display: flex;
+           margin-top: 10%;
+           padding-left: 10%;
+       }
+       .edu-detail{
+           width: 70%;
+           margin-left: 30%;
+       }
+        .skills-card {
+            display: flex;
+           flex-direction: column;
+           width: 70%;
+           margin-left: 30%;
+       }
+       .form-input{
+           width: 150%;
+           margin-left: 20%;
+       }
+       .form-input button {
+           width: 40%;
+       }
+
+}
