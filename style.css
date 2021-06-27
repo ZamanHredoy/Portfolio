@@ -77,9 +77,13 @@ border-radius: 50%;
     font-size: large;
 }
 .edu-section{
+    margin-top: 5%;
     height: 90vh;
     background-color:rgb(241, 251, 255);
 }
+.skills-section{
+    margin-top:5%;
+}   
 .skills-card{
     display: flex;
     justify-content: center;
