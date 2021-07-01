@@ -100,11 +100,12 @@ border-radius: 50%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);;
 }
 .contact-section{
+    height: 70vh;
     background-color: #f3f3f3;
 }
 .form{
     width: 40%;
-    margin: 0 auto;
+    margin: 10% auto;
 }
 .form-input{
     display: flex;
@@ -208,6 +209,9 @@ footer .container .social-media a:hover{
        }
        .form-input button {
            width: 40%;
+       }
+       .nav-text{
+           display: none;
        }
 
 }
