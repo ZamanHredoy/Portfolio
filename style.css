@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;;
+
+}
 .logo{
     width: 10%;
     padding: 20px;
@@ -40,10 +44,10 @@ nav ul li.active a{
     margin-left: 20%;
 }
 .social-media a{
-text-decoration: none;
-color: #4b44f2;
-padding: 2%;
-border-radius: 50%;
+    text-decoration: none;
+    color: #4b44f2;
+    padding: 2%;
+    border-radius: 50%;
 }
 
 .social-media a:hover{
@@ -78,7 +82,6 @@ border-radius: 50%;
 }
 .edu-section{
     margin-top: 5%;
-    height: 90vh;
     background-color:rgb(241, 251, 255);
 }
 .skills-section{
@@ -100,11 +103,10 @@ border-radius: 50%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);;
 }
 .contact-section{
-    height: 70vh;
     background-color: #f3f3f3;
 }
 .form{
-    width: 40%;
+    width: 70%;
     margin: 5% auto;
 }
 .form-input{
@@ -113,7 +115,7 @@ border-radius: 50%;
     justify-content: center;
 }
 .form-input input{
-    margin: 2%;
+    margin: 1%;
     border-radius: 20px;
     padding: 1%;
     border: none;
@@ -122,7 +124,6 @@ border-radius: 50%;
 .form-input textarea{
     border-radius: 20px;
     border: none;
-    
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 .form-input input:focus{
@@ -141,7 +142,7 @@ border-radius: 50%;
 }
 .footer-section{
     height: 30vh;
-    background-color: gray;
+    background-color: rgb(20, 20, 20);
     color: white;
     display: flex;
     align-items: center;
@@ -171,12 +172,14 @@ footer .container .social-media a:hover{
         margin-left: -5%;
     }
    .landing-page{
-       margin-top: -20%;
-       margin-left: 5%;
        flex-direction: column;   }
        .my-face{
            width: 70%;
-           margin-top: -50%;
+           margin-top: -20%;
+       }
+       .about-section{
+           margin: 20% 0;
+
        }
        .about-section .container{
            display: flex;
@@ -195,10 +198,11 @@ footer .container .social-media a:hover{
            width: 60%;
            display: flex;
            margin-top: 10%;
+           margin-bottom: 10%;
        }
        .edu-detail{
            width: 60%;
-           margin-left: 25%;
+           margin-left:10%
        }
         .skills-card {
             display: flex;
@@ -207,8 +211,8 @@ footer .container .social-media a:hover{
            margin-left: 20%;
        }
        .form-input{
-           width: 160%;
-           margin-left: -10%;
+           width: 300px;
+           margin-left:20px;
        }
        .form-input button {
            width: 40%;
